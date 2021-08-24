@@ -1,0 +1,46 @@
+body{
+
+}
+button{
+	width: 100px;
+	height: 40px;
+	color: red;
+	background: white;
+}
+td img {
+	width: 300px;
+}
+.pagination{
+	margin-left: 500px;
+
+}
+body ul li a {
+	color: red;
+}
+ strong{
+	color: red !important; 
+}
+h2 a {
+	color: red;
+	
+}
+a button {
+	float: left;
+	box-shadow: 2px 2px 10px red;
+	border: 1px solid white;
+	width: 150px;
+}
+th a button{
+	float: right;
+	width: 200px;
+}
+button{
+	
+	float: right;
+	box-shadow: 2px 2px 10px red;
+	border: 1px solid white;
+}
+td a button{
+	float: right;
+	width: 100px;
+}

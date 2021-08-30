@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* mac dinh la 16px */
+}
+body{
+    overflow-x: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h2::after{
+    content: "\A";
+    display: inline-block;
+    width: 450px;
+    height: 1px;
+    background-color: black;
+    /* margin: 0 auto; */
+    margin-top: -4px;
+}
+h2::before{
+    content: "\A";
+    display: inline-block;
+    width: 450px;
+    height: 1px;
+    background-color: black;
+    /* margin: 0 auto; */
+    margin-top: 25px;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.intro{
+    display: inline;
+    font-size: 70%;
+}
+body a{
+    float: right;
+    text-decoration: none;
+    margin-top: 5px;
+}
+body a:hover ,
+body a:active {
+    color: rgb(70, 70, 223);
+}
+.logo{
+    width: 200px;
+}
+.navbar{
+    float: right;
+    
+}
+.main{
+    display: inline-block;
+    margin-right: 30px;
+}
+.main a img{
+    width: 192px;
+    border-radius: 10px;
+   
+}
+.main a img:hover,
+.main a img:active{
+   background-color: pink;
+}
+.btn{
+    
+    text-align: center;
+    transform: translate(-10%,-150%);
+}
+.btn  a{
+    text-align: center;
+}
+.btn a{
+    width: 224.7px;
+    height: 90px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+}
+.btn a:hover,
+.btn a:active{
+    opacity: 0.75;
+}
+/* -------headlinenews------------- */
+.headlinenews{
+    position: relative;
+    transform: translate(0%,-300%);
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+.table , .td{
+    /* border: 1px solid pink; */
+    /* border-collapse: collapse; */
+    width: 100%;
+    padding: 5px;
+}
+.date{
+    width: 100px ;
+    text-align: center;
+
+}
+/* .c{
+    position: relative;
+    margin-right: 40px;
+    background-color: red;
+} */
+.c1{
+    text-align: right;
+}
+.c1 img{
+    margin-top: 200px;
+}
+.c3 img{
+    margin-top: 200px;
+}
+.c2{
+    text-align: center;
+}
+.c3{
+    text-align: left;
+}
+/* .c1,.c2 ,.c3{
+    background-color: rosybrown;
+} */
+.end{
+    margin-top: 130px;
+}
+h4{
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:  0px 2px 3px 0px black;
+    margin-top: 10px;
+}
+h6{
+    font-size: 16px;
+    color: pink;
+}

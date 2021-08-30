@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styleFE1.css">
+  <link rel="stylesheet" href="../demo1/vendor/grid4.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <img src="./images/lo.png" alt="">
+    <ul class="navbar">
+      <li>
+        <a class="a" href="#">トップページ</a>
+      </li>
+      <li>
+        <a class="a" href="#">初めての方へ</a>
+        <div class="content">
+          <a href="#">JOIとは</a>
+          <hr>
+          <a href="#">レッスンの種類</a>
+          <hr>
+          <a href="#">JOIの特徴</a>
+        </div>
+      </li>
+      <li>
+        <a class="a" href="#">スクール紹介</a>
+        <div class="content">
+          <a href="#">JOIとは</a>
+          <hr>
+          <a href="#">レッスンの種類</a>
+          <hr>
+          <a href="#">JOIの特徴</a>
+        </div>
+      </li>
+      <li>
+        <a class="a" href="#">レッスン購入</a>
+        <div class="content">
+          <a href="#">JOIとは</a>
+          <hr>
+          <a href="#">レッスンの種類</a>
+          <hr>
+          <a href="#">JOIの特徴</a>
+        </div>
+      </li>
+      <li>
+        <a class="a" href="#">無料の学習環境</a>
+        <div class="content">
+          <a href="#">JOIとは</a>
+          <hr>
+          <a href="#">レッスンの種類</a>
+          <hr>
+          <a href="#">JOIの特徴</a>
+        </div>
+      </li>
+      <li>
+        <a class="a" href="#">お申し込み</a>
+      </li>
+      <li>
+        <a class="a" href="#">JOI USER LOGIN</a>
+      </li>
+      <li>
+        <a href="#"><img class="img" src="./images/logo.png" alt=""></a>
+      </li>
+      <li>
+        <a href="#"><img class="img" src="./images/logo2.jpg" alt=""></a>
+      </li>
+    </ul>
+  </header>
+  <section class="slide">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="./images/salee.jpg" style="height: 400px;">
+        <div class="text">日本語教師とのライブレッスン！ <br> <small style="color: gray;">グループレッスン、プライベートレッスンのご選択が可能です。</small> <br>
+         <small style="color: gray;">今すぐスタート!</small>
+         <br>
+         <br>
+         <a href="#"><img src="./images/try.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/salee1.jpg" style="height: 400px;margin-left: 700px;">
+        <div class="text1">今すぐ、はじめよう！ <br><br><small style="color: gray;">iPad,iphone,Androidも使用できます。</small> <br><br>
+          <small style="color: gray;">3 easy steps !</small> <br> <br>
+          <a href="#"><img src="./images/try.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/salee3.jpg" style="height: 400px;">
+        <div class="text">JLPT合格に向けて、今からスタート！<br> <small style="color: gray;">N1、N2、N3、N4の文法、漢字クラス</small> <br>
+          <small style="color: gray;">今すぐスタート!</small>
+          <br>
+          <br>
+          <a href="#"><img src="./images/try.png" alt=""></a>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/salee4.jpg" style="height: 400px;margin-left: 700px;">
+        <div class="text1">自分のペースで、オンラインレッスン！<br><br><small style="color: gray;">オフィスでも、ご自宅でも、受講可能です。</small> <br><br>
+          <small style="color: gray;">3 easy steps !</small> <br> <br>
+          <a href="#"><img src="./images/try.png" alt=""></a>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="./images/salee5.jpg" style="height: 400px;">
+        <div class="text">サバイバル日本語コース！ <br> <small style="color: gray;"><a
+              style="text-decoration: none; color: rgb(87, 87, 201);" href="#">サバイバル日本語のページ </a> をご覧ください。</small> <br>
+          <small style="color: gray;">今すぐスタート!</small>
+          <br>
+          <br>
+          <a href="#"><img src="./images/try.png" alt=""></a>
+        </div>
+      </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+      }
+    </script>
+  </section>
+  
+  <div class="clearfix"></div>
+  <section class="input">
+    <form class="form" action="">
+      <button><a href="#">Button</a></button>
+      <button><a href="#">Button</a></button>
+    </form>
+  </section>
+  <div class="clearfix"></div>
+  <section class="qualified">
+    <p class="p"> 
+      QUALIFIED & DEDICATED TEAM
+    </p>
+    <div class="sld">
+        <img src="./images/1.jpg" alt="">
+        <img src="./images/2.jpg" alt="">
+        <img src="./images/3.jpg" alt="">
+        <img src="./images/4.jpg" alt="">
+        <img src="./images/5.jpg" alt="">
+        <img src="./images/6.jpg" alt="">
+        <img src="./images/7.jpg" alt="">
+        <img src="./images/8.jpg" alt="">
+        <img src="./images/9.jpg" alt="">
+        <img src="./images/11.jpg" alt="">
+        
+    </div>
+  </section>
+  <div class="clearfix"></div>
+  <section class="her">
+      <div class="section group image">
+        <div class="col span_1_of_4 person">
+          <p style="color: rgb(120, 120, 240); padding: 20px;"><i class="far fa-comment-alt fa-2x"></i> &ensp; &nbsp; 生徒様の声</p>
+          <div class="clearfix"></div>
+          <div class="info">
+              <img src="./images/she.jpg" alt="">
+              <p>CarrieZ-US says...</p>
+              <p>“I highly recommend taking lessons through JOI, for it is a system built with your convenience in mind. ”</p>
+              <br>
+              <a href="trang3.html"> もっと読む</a><br> <br>
+          </div>
+      </div>
+      </div>
+  </section>
+  <div class="clearfix"></div>
+  <section class="news">
+    <p class="p1"><strong style="color: red;">Headline</strong> News</p>
+    <div class="contai">
+      <div id="column1">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-12">
+                      <table class="table">
+                          <tbody>
+                              <tr>
+                                  <td>
+                                      2020年3月1日
+                                  </td>
+                                  <td>
+                                      アプライズに2000万円の増資、資本金が4,000万円となりました
+                                  </td>
+
+                              </tr>
+                              <tr class="table">
+                                  <td>
+                                      2020年2月14日
+                                  </td>
+                                  <td>
+                                      酒類販売業免許を取得
+                                  </td>
+
+                              </tr>
+                              <tr class="table">
+                                  <td>
+                                      2019年10月22日
+                                  </td>
+                                  <td>
+                                      アプライズ ベトナム 日本語教育のライセンス取得
+                                  </td>
+
+                              </tr>
+                              <tr class="table">
+                                  <td>
+                                      2019年6月7日
+                                  </td>
+                                  <td>
+                                      特定技能登録支援機関に認定されました
+                                  </td>
+
+                              </tr>
+                              <tr class="table">
+                                  <td>
+                                      2018年5月3日
+                                  </td>
+                                  <td>
+                                      アプライズ ベトナムをハノイに設立
+                                  </td>
+
+                              </tr>
+                              <tr class="table">
+                                  <td>
+                                      2018年3月26日
+                                  </td>
+                                  <td>
+                                      日本企業のベトナム進出を支援するアプライズ インベストメント（資本金4000万円）をホーチミンで設立
+                                  </td>
+
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+
+
+              </div>
+          </div>
+      </div>
+  </div>
+  </section>
+</body>
+
+</html>

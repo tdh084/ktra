@@ -1,0 +1,239 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: optimizeLegibility;
+    /* mac dinh la 16px */
+}
+body{
+    overflow-x: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.navbar{
+	float: right;
+	position: relative;
+}
+.navbar li{
+	display: inline-block;
+	margin-top: 80px;
+}.navbar li .a{
+	text-decoration: none;
+	margin-right: 10px;
+	padding: 20px 10px 20px 10px;
+	font-size: 70%;
+}
+.navbar li .a:hover{
+	background-color:rgb(87, 87, 231);
+	color: white;
+}
+.img{
+	width: 20px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.content{
+	position: absolute;
+	margin-top: 17px;
+	transition: all 1s;
+}
+.content a{
+	display: none;
+	padding: 10px;
+	text-decoration: none;
+	padding: 15px;
+}
+.navbar li:hover .content a{
+	display: block;
+	color: white;
+	text-decoration:white;
+	background-color: rgb(87, 87, 231);
+}
+.content a:hover{
+	border-bottom: 1px solid white;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: rgb(87, 87, 201);
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: right;
+}
+.text1{
+	color: rgb(87, 87, 201);
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+.input{
+	text-align: center;
+	margin-top: 40px;
+}
+.input .form button{
+	padding: 20px 60px;
+	background-color: rgb(98, 98, 231);
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.input .form button:hover{
+	background-color: rgb(144, 144, 248);
+}
+button a{
+	text-decoration: none;
+	font-size: 130%;
+	text-transform: uppercase;
+}
+.image{
+	padding: 10px;
+}
+.info{
+	margin-top: 20px;
+	text-align: center;
+}
+.info p{
+	margin-top: 15px;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.person{
+	background-color: rgb(218, 218, 218);
+	border: none;
+    border-radius: 10px;
+}
+.qualified{
+	background-color: #0177B1;
+	background-size: cover;
+	margin-top: 40px;
+}
+.p::before{
+	content: " ";
+	display: block;
+	width: 450px;
+    height: 1px;
+	background-color: white;
+	margin-bottom: 10px;
+}
+.p{
+	margin-left: 20px;
+}
+.p::after{
+	content: " ";
+	display: block;
+	width: 450px;
+    height: 1px;
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.sld{
+	padding: 10px 20px;
+}
+.p1{
+	font-size: 140%;
+	margin-bottom: 50px;
+}
+.p1::before{
+	content: " ";
+	display: inline-block;
+	width: 520px;
+    height: 1px;
+	background-color: black;
+	
+}
+.p1::after{
+	content: " ";
+	display: inline-block;
+	width: 500px;
+    height: 1px;
+	background-color: black;
+	
+	
+}
+.table , .td{
+    /* border: 1px solid pink; */
+    /* border-collapse: collapse; */
+    width: 100%;
+    padding: 5px;
+}
+.date{
+    width: 100px ;
+    text-align: center;
+
+}
+.contain{
+	margin-top: 50px;
+}
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slide{
+	position: relative;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
